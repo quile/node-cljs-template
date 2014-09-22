@@ -10,6 +10,7 @@
   :node-dependencies [[express "3.0.0"]
                       [underscore "*"]
                       [moment "*"]
+                      [source-map-support "*"]
                       [redis "0.8.x"]]
 
   :plugins [[lein-cljsbuild "1.0.4-SNAPSHOT"]
