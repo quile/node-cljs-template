@@ -5,4 +5,4 @@ try {
 require("./js/goog/bootstrap/nodejs")
 require("./{{name}}")
 require("./js/{{sanitized}}/core")
-{{sanitized}}.core._main(); ;; TODO: fix this assumption
+{{sanitized}}.core._main(); // TODO: fix this assumption
