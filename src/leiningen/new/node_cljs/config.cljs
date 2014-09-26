@@ -1,7 +1,7 @@
 (ns {{ns-name}}.config
   (:require [cljs.nodejs :as node]
             [{{ns-name}}.log :as log :refer [info error]]
-            [quile.component :as component]))
+            [com.stuartsierra.component :as component]))
 
 (def --dirname (js* "__dirname"))
 (def config (atom nil))

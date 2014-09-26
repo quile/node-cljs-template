@@ -3,7 +3,9 @@
             [{{ns-name}}.config :as config]
             [{{ns-name}}.log :as log :refer [info error]]
             [cljs.nodejs :as node]
-            [quile.component :as component]))
+            [com.stuartsierra.component :as component]))
+
+(.log js/console "dirname is " (js* "__dirname"))
 
 (def some-node-module (apply (js* "require") ["../../src/js/some_node_module"]))
 
@@ -65,4 +67,4 @@
                       (.exit js/process)) 5000)))
 
 (enable-console-print!)
-(set! *main-cli-fn* -main)
+;; (set! *main-cli-fn* -main)

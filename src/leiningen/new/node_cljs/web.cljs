@@ -1,7 +1,7 @@
 (ns {{ns-name}}.web
   (:require [cljs.nodejs :as node]
             [{{ns-name}}.log :as log :refer [info error]]
-            [quile.component :as component]))
+            [com.stuartsierra.component :as component]))
 
 (def express (node/require "express"))
 
