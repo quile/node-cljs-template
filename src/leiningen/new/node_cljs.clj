@@ -16,7 +16,7 @@
                   ["src/cljs/{{sanitized}}/config.cljs" (render "config.cljs" data)]
                   ["resources/config/development.js" (render "development.js")]
                   ["src/js/some_node_module.js" (render "some_node_module.js")]
-                  ["README.md" (render "README.md")]
+                  ["README.md" (render "README.md" data)]
                   ["run.js" (render "run.js" data)]
                   ["test-runner.js" (render "test-runner.js" data)]
 )))
