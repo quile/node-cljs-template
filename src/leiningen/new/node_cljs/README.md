@@ -24,6 +24,9 @@ The basic structure of the template here is:
     │   └── config
     │       └── development.js
     ├── run.js
+    ├── test-runner.js
+    ├── test
+    │   └── foo.cljs
     └── src
         ├── cljs
         │   └── node_cljs
@@ -138,9 +141,29 @@ If you dig into the code, you'll see some examples of how to use:
     * Interop between your .cljs code and Node modules installed using npm
     * How to load in some config and use it to initialise modules (this is fairly cheesy right now, but will improve greatly in the near future)
 
+# Tests
+
+There's a skeleton test setup that you can start adding to.  It uses
+Chas Emerick's ClojureScript port of clojure.test, which is very similar
+to what you expect in a regular Clojure project.  Under test/ you'll find
+an example file.  Your tests are executed using node.js
+by running the test-runner.js, gleaned from
+
+https://github.com/mike-thompson-day8/cljsbuild-none-test-seed
+
+You can run them thus:
+
+    lein cljsbuild test node
+
+and the output should be very similar to what you expect.  There are some
+unfortunate weird behaviours dude to various invocations of javascript "main"
+functions, so be aware of this if you start seeing strange things when you
+run your tests.  It's still a fairly rough exercise.
+
+
+
 # TODO
 
-* Show how to set up tests
 * Wrap some basic node.js functionality with ClojureScript
 * Fill in some basic things missing from cljs.core, such as __slurp__
 
