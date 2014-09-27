@@ -5,7 +5,7 @@ possible about running ClojureScript effectively under Node.js
 and simplify the process of creating a new Node-hosted
 ClojureScript project.
 
-All of this information is current as of Sept. 21st, 2014, although
+All of this information is current as of Sept. 26th, 2014, although
 it's likely to change rapidly due to the rather bleeding-edge nature
 of both ClojureScript and Node.js, not to mention other related
 technologies such as core.async, and to some extent Clojure itself.
@@ -153,7 +153,9 @@ If you dig into the code, you'll see some examples of how to use:
     * Stuart Sierra's Components and the Lifecycle protocol
     * Interop between your own JS and .cljs code
     * Interop between your .cljs code and Node modules installed using npm
-    * How to load in some config and use it to initialise modules (this is fairly cheesy right now, but will improve greatly in the near future)
+    * How to make tests and how to run them
+    * How to load in some config and use it to initialise modules
+      (this is fairly cheesy right now, but will improve greatly in the near future)
 
 # TODO
 
