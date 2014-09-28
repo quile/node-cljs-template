@@ -41,6 +41,8 @@ The basic structure of the template here is:
     │   └── config
     │       └── development.js
     ├── run.js
+    ├── test
+    │   └── foo.cljs
     └── src
         ├── cljs
         │   └── node_cljs
