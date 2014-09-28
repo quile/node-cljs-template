@@ -4,7 +4,7 @@
 
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2311"]
-                 [com.stuartsierra/component "0.2.3-CLJX"]]
+                 [quile/component-cljs "0.2.2"]]
 
   :node-dependencies [[express "3.0.0"]
                       [underscore "*"]
