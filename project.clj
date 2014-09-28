@@ -1,4 +1,4 @@
-(defproject node-cljs/lein-template "0.1.2"
+(defproject node-cljs/lein-template "0.1.3"
   :description "Leiningen template for Node.js-hosted ClojureScript"
   :url "https://github.com/quile/node-cljs-template"
   :license {:name "Eclipse Public License"
