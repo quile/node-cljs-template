@@ -1,8 +1,8 @@
 # ClojureScript on Node.js
 
-This template is just to gather together as much information as
-possible about running ClojureScript effectively under Node.js
-and simplify the process of creating a new Node-hosted
+The purpose of this template is just to gather together as much information
+together as possible about running ClojureScript effectively under Node.js,
+and to simplify the process of creating a new Node-hosted
 ClojureScript project.
 
 All of this information is current as of Sept. 26th, 2014, although
