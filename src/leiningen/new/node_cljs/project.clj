@@ -2,9 +2,9 @@
   :description "FIXME: write this!"
   :url "http://example.com/FIXME"
 
-  :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-2311"]
-                 [quile/component-cljs "0.2.2"]]
+  :dependencies [[org.clojure/clojure "1.7.0"]
+                 [org.clojure/clojurescript "1.7.122"]
+                 [quile/component-cljs "0.2.4"]]
 
   :node-dependencies [[express "3.0.0"]
                       [underscore "*"]
@@ -12,7 +12,7 @@
                       [source-map-support "*"]
                       [redis "0.8.x"]]
 
-  :plugins [[lein-cljsbuild "1.0.4-SNAPSHOT"]
+  :plugins [[lein-cljsbuild "1.1.0"]
             [lein-npm "0.4.0"]
             [org.bodil/lein-noderepl "0.1.11"]
             [com.cemerick/clojurescript.test "0.3.1"]]
